@@ -8,7 +8,7 @@ files.delete(".")
 files.delete("..")
 
 repo.add(files)
-repo.commit_index("Adding .rb fil through the command line of Grit")
+repo.commit_index("Adding .rb fil through the command line of Grit...another attempt")
 
 puts "Repository Status"
 system("git status")
