@@ -10,7 +10,7 @@ files.delete(".")
 files.delete("..")
 
 repo.add(files)
-repo.commit_index("#{ARGV[0]}")
+repo.commit_all("#{ARGV[0]}")
 
 # puts "Repository Status"
 # system("git status")
